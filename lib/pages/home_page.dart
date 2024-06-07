@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:second_app/widgets/home_drawer.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -16,7 +17,7 @@ class HomePage extends StatelessWidget {
       body: const Center(
         child: Text("Welcome $name"),
       ),
-      drawer: const Drawer(),
+      drawer: const HomeDrawer(),
       floatingActionButton: FloatingActionButton(
         elevation: 999,
         shape: const CircleBorder(),
